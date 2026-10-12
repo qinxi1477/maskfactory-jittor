@@ -1,0 +1,61 @@
+{
+  "passed": false,
+  "output_passed": true,
+  "first_divergence": "noise1",
+  "results": {
+    "context": {
+      "rel_rmse": 1.789565291084042e-06,
+      "max_abs": 0.00201416015625,
+      "limit": 0.002,
+      "passed": true
+    },
+    "pooled": {
+      "rel_rmse": 8.253639066541538e-07,
+      "max_abs": 3.814697265625e-06,
+      "limit": 0.002,
+      "passed": true
+    },
+    "initial": {
+      "rel_rmse": 0.0,
+      "max_abs": 0.0,
+      "limit": 1e-05,
+      "passed": true
+    },
+    "noise0": {
+      "rel_rmse": 0.00039302744837697585,
+      "max_abs": 0.0012230873107910156,
+      "limit": 0.003,
+      "passed": true
+    },
+    "sample0": {
+      "rel_rmse": 0.0023309636237230365,
+      "max_abs": 0.009258091449737549,
+      "limit": 0.003,
+      "passed": true
+    },
+    "noise1": {
+      "rel_rmse": 0.020901926887070356,
+      "max_abs": 0.061115384101867676,
+      "limit": 0.003,
+      "passed": false
+    },
+    "sample1": {
+      "rel_rmse": 0.002330960966381426,
+      "max_abs": 0.009257972240447998,
+      "limit": 0.003,
+      "passed": true
+    },
+    "decoded": {
+      "rel_rmse": 0.008735673809246246,
+      "max_abs": 0.11226439476013184,
+      "limit": 0.02,
+      "passed": true
+    },
+    "cross_noise1": {
+      "rel_rmse": 0.002236653236540332,
+      "max_abs": 0.00595518946647644,
+      "limit": 0.003,
+      "passed": true
+    }
+  }
+}
